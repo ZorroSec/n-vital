@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            font-family: 'Lato', sans-serif;
+        }
+        body{
+            background-color: #f2f2f2;
+        }
+        header{
+            background-color: #ffffff;
+            padding: 10px;
+            box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+        }
+        header ul{
+            margin: 0;
+            display: flex;
+        }
+        header ul li{
+            list-style: none;
+            padding-left: 10px;
+        }
+        header ul li a{
+            text-decoration: none;
+        }
+        .user{
+            text-align: center;
+        }
+        .conteiner{
+            margin: auto;
+            width: 75%;
+            background-color: #ffffff;
+            box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+            border-radius: 10px;
+        }
+    </style>
+    <title>N-vital</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <h2>Logo</h2>
+            </li> 
+            <li>
+                <a href="#">home</a>
+            </li>
+            <li>
+                <a href="admin.html">login</a>
+            </li>
+        </ul>
+        <div class="user">
+            <h4>Hello Mr. {{ userHeader }}</h4>
+        </div>
+    </header>
+    <div class="conteiner">
+        <main>
+            <article>
+                <div class="content">
+                    <div class="title">
+                        <h2> <a href=""></a> </h2>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
